@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main ()
+{
+int x, y, result;
+char c;
+printf ("Heo6xoduMo BBecTu 2 nepemeHHble: ");
+scanf ("%d%c%d", &x, &c, &y);
+switch (c)
+{
+case '+':result=x+y;
+printf ("%d+%d=%d", x, y, result);
+break;
+case '-':result=x-y;
+printf ("%d-%d=%d", x, y, result);
+break;
+case '*':result=x*y;
+printf ("%d*%d=%d", x, y, result);
+break;
+case '/':result=x/y;
+printf ("%d/%d=%d", x, y, result);
+break;
+}
+return 0;
+} 
